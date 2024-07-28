@@ -6,6 +6,7 @@ pipeline {
                 echo 'Building'
                 sh 'ls -ltr'
                 sh 'pwd'
+                echo 'Hello from Github push webhook event'
             }
         }
         stage('Test') {
